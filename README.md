@@ -8,7 +8,7 @@ Nix based development environment for the team. This repo is cloned and applied 
 2. Inside the WSL Ubuntu terminal, run:
 
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/<your-org>/<dev-env-repo>/main/bootstrap.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/DeMeerleerGilles/dev-environment-nix/refs/heads/main/bootstrap.sh | bash
    ```
 
 3. Once it finishes: `chsh -s $(which zsh)`, then restart the terminal.
