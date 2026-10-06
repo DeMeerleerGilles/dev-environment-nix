@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Team dev-environment bootstrap for WSL Ubuntu.
 # Usage: run this once on a fresh WSL Ubuntu install.
-#   curl -fsSL https://raw.githubusercontent.com/<your-org>/<dev-env-repo>/main/bootstrap.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/DeMeerleerGilles/dev-environment-nix/refs/heads/main/bootstrap.sh | bash
 set -euo pipefail
 
 REPO_URL="git@github.com:<your-org>/<dev-env-repo>.git"   # <- change me
