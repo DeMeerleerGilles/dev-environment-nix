@@ -32,11 +32,7 @@ Delete the existing /etc/resolv.conf by running `sudo rm /etc/resolv.conf` and r
 Add the following lines to the resolv.conf file:
 
 ```bash
-search brussels.airport
-nameserver 10.108.108.100
-nameserver 10.108.108.200
-nameserver 208.67.222.222
-nameserver 208.67.220.220
+
 ```
 
 Save & exit the file.
@@ -58,7 +54,7 @@ Add your public key to your bitbucket account under account.
 Clone the repo using the following command:
 
 ```bash
-git clone ssh://git@bitbucket.brusselsairport.be:22/ictcf/wsl-nixos.git
+git clone 
 cd wsl-nixos/
 ```
 
